@@ -1,0 +1,6 @@
+config TXTIMING
+	tristate "TxTiming Module"
+	depends on ARM
+	default y if ARM
+	help
+		TxTiming Module
